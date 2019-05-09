@@ -1,0 +1,25 @@
+.home-page {
+	height: 90%;
+	position: absolute;
+
+	.title-presentation {
+		position: absolute;
+		cursor: default;
+		opacity: 0;
+		transition: opacity 3s;
+		top: 50%;
+		left: 10%;
+		color: white;
+		font-size: 44pt;
+		font-family: 'Anton', sans-serif;
+
+		.animated.rubberBand {
+			color: #00b3b3;
+		}
+	}
+
+	.title-presentation.loaded {
+		opacity: 1;
+		transition: opacity 3s;
+}
+}
