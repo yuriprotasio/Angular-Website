@@ -1,17 +1,16 @@
+.background {
+	background-image: url("../../assets/city_1.png");
+}
 .home-page {
-	height: 90%;
-	position: absolute;
-
 	.title-presentation {
-		position: absolute;
 		cursor: default;
 		opacity: 0;
 		transition: opacity 3s;
-		top: 50%;
+		top: 30%;
 		left: 10%;
 		color: white;
-		font-size: 44pt;
-		font-family: 'Anton', sans-serif;
+		font-size: 46pt;
+		font-family: 'Armata', sans-serif;
 
 		.animated.rubberBand {
 			color: #00b3b3;
@@ -21,5 +20,22 @@
 	.title-presentation.loaded {
 		opacity: 1;
 		transition: opacity 3s;
-}
+	}
+
+	.description {
+		p {
+			position: absolute;
+			top: 37%;
+			right: 10%;
+			font-size: 30pt;
+			color: #fff;
+			font-weight: 700;
+			font-family: 'Armata', sans-serif;
+		}
+		img {
+			top: 37%;
+			right: 10%;
+		}
+		
+	}
 }

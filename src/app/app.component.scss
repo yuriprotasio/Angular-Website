@@ -1,0 +1,30 @@
+.menu {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	margin-top: 10px;
+
+	a {
+		width: 100px;
+		text-decoration: none;
+		text-align: center;
+		color: #212529;
+		background: white;
+		list-style: none;
+		margin-right: 10px;
+		padding: 15px 30px 25px 30px;
+		border-radius: 0 0 5px 5px;
+		cursor: pointer;
+		font-size: 14pt;
+		font-weight: 700;
+		font-family: 'Armata', sans-serif;
+		transition: background 1s, color 1s;
+	}
+
+	a:hover {
+		background: rgb(0,228,228);
+		background: linear-gradient(0deg, rgba(0, 228, 228, 0.710522) 10%, rgba(255, 255, 255, 0) 110%);
+		color: #fff;
+		transition: background 1s, color 1s;
+	}
+}
