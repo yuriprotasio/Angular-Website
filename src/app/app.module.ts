@@ -9,6 +9,11 @@ import { BsDropdownModule } from 'ngx-bootstrap'
 
 
 import { HomeComponent } from './home/home.component'
+import { AboutComponent } from './about/about.component'
+import { ServicesComponent } from './services/services.component'
+import { PortfolioComponent } from './portfolio/portfolio.component'
+import { ContactComponent } from './contact/contact.component'
+import { ShouldHireComponent } from './should-hire/should-hire.component'
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -22,7 +27,12 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    ServicesComponent,
+    PortfolioComponent,
+    ContactComponent,
+    ShouldHireComponent
   ],
   imports: [
     BrowserModule,
