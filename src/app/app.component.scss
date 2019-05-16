@@ -29,3 +29,10 @@
 		transition: background 1s, color 1s;
 	}
 }
+
+.app-sections {
+	background-image: url("../assets/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}

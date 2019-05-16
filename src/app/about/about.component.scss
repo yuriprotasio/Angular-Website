@@ -1,7 +1,70 @@
 .about {
+	color: #000;
 	text-align: center;
+	font-family: 'Armata', sans-serif;
+	padding-bottom: 50px;
+	background-color: rgba(0, 0, 255, 0.7);
 
 	h2 {
-		font-size: 40pt;
+		font-size:36pt;
+		padding-top: 40px;
+		margin-bottom: 0;
 	}
+
+	.title-bar {
+		margin-top: 15px;
+		width: 100px;
+		border-bottom: 5px solid #212529;
+	}
+
+	.bar {
+		width: 100px;
+		border-bottom: 2px solid #212529;
+	}
+
+	.content {
+		margin-top: 50px;
+
+		.description {
+			font-size: 12pt;
+			font-weight: 700;
+		}
+
+		.profile {
+			.name {
+				font-size: 26pt;
+				font-weight: 700;
+				margin-top: 15px;
+				margin-bottom: 0;
+				color: #fff;
+			}
+
+			.office {
+				font-size: 14pt;
+				font-weight: 700;
+				margin-bottom: 5px;
+			}
+
+			.social-links {
+				a {
+					color: #212529;
+					font-size: 30pt;
+					margin-right: 10px;
+					transition: font-size .2s;
+				}
+
+				a:hover {
+					color: #394047;
+					font-size: 38pt;
+					transition: font-size .2s;
+				}
+			}
+
+			img {
+				width: 300px;
+			}
+		}
+	}
+
+	
 }

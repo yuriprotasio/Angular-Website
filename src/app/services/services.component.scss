@@ -1,27 +1,48 @@
 .services {
+	font-family: 'Armata', sans-serif;
 	text-align: center;
+	background-color: rgba(255, 153, 0, 0.7);
+
 	h2 {
-		font-size: 40pt;
+		font-size: 36pt;
+		padding-top: 40px;
 		margin-bottom: 0;
 	}
 
 	.title-bar {
 		margin-top: 15px;
 		width: 100px;
-		border-bottom: 7px solid #212529;
+		border-bottom: 5px solid #212529;
 	}
 
 	.icons {
+		margin-top: 15px;
+		font-weight: 700;
+
 		img {
 			height: 150px;
 			width: 150px;
 		}
 	}
 
+	h3 {
+		margin-top: 30px;
+		font-weight: 700;
+	}
+
 	.description {
+		font-size: 12pt;
+		margin-top: 40px;
+		font-weight: 700;
+
 		img {
 			width: 550px;
 		}
+	}
+
+	.bar {
+		width: 100px;
+		border-bottom: 2px solid #212529;
 	}
 
 

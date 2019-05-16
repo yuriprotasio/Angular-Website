@@ -1,7 +1,44 @@
 .should-hire {
+	font-family: 'Armata', sans-serif;
 	text-align: center;
+	background-color: rgba(0, 102, 61, .1);
+	padding-bottom: 50px;
+
+	.title-bar {
+		margin-top: 15px;
+		width: 100px;
+		border-bottom: 5px solid #212529;
+	}
+
+	.bar {
+		width: 100px;
+		border-bottom: 2px solid #212529;
+	}
 
 	h2 {
-		font-size: 40pt;
+		font-size: 36pt;
+		padding-top: 40px;
+	}
+
+	h3 {
+		font-weight: 700;
+		margin-top: 50px;
+	}
+
+	.description {
+		margin-top: 40px;
+
+		img {
+			width: 100%;
+		}
+
+		.text {
+			margin-top: 50px;
+
+			p {
+				font-size: 14pt;
+				font-weight: 700;
+			}
+		}
 	}
 }
