@@ -1,7 +1,91 @@
 .contact {
 	text-align: center;
+	background-color: rgba(128, 128, 128, 0.5);
+	font-family: 'Armata', sans-serif;
 
 	h2 {
-		font-size: 40pt;
+		font-size:36pt;
+		padding-top: 40px;
+		margin-bottom: 0;
+	}
+
+	.title-bar {
+		margin-top: 15px;
+		width: 100px;
+		border-bottom: 5px solid #212529;
+	}
+
+	.content {
+		margin-top: 60px;
+		padding-bottom: 50px;
+	}
+
+	.text {
+		font-size: 14pt;
+		font-weight: 700;
+
+		i {
+			color: #0C3;
+			font-size: 34pt;
+		}
+
+		.wpp-number {
+			margin-left: 5px;
+			font-size: 24pt;
+		}
+	}
+
+	form {
+		input {
+			height: 50px;
+		}
+
+		input, textarea {
+			background-color: #fff;
+			outline-style: none;
+			border: none;
+			padding: 0 20px;
+		}
+
+		input[name="name"] {
+			width: 49%;
+		}
+
+		input[name="email"] {
+			width: 49%;
+			margin-left: 2%;
+		}
+
+		input[name="subject"] {
+			width: 100%;
+			margin-top: 8px;
+		}
+
+		textarea {
+			width: 100%;
+			height: 150px;
+			margin-top: 8px;
+			padding-top: 10px;
+		}
+
+		button {
+			float: right;
+			border: 1px solid #000;
+			border-radius: 5px;
+			color: #000;
+			font-size: 12pt;
+			font-weight: 700;
+			text-decoration: none;
+			padding: 10px 20px;
+			background-color: transparent;
+			transition: background-color .5s, color .5s, border .5s;
+		}
+
+		button:hover {
+			background-color: #00b3b3;
+			border: 1px solid #00b3b3;
+			color: black;
+			transition: background-color .5s, color .5s, border .5s;
+		}
 	}
 }

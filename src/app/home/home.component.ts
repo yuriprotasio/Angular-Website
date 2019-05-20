@@ -20,6 +20,4 @@ export class HomeComponent {
 			event.target.className = ''
 		}, 1000)
 	}
-
-	ngOnInit() {}
 }
