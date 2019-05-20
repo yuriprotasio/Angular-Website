@@ -1,10 +1,16 @@
-<div class="menu" style="display: none;">
+<div class="menu d-none d-sm-none d-md-block">
 	<a (click)="scrollTo('home')">Home</a>
 	<a (click)="scrollTo('services')">Serviços</a>
 	<a (click)="scrollTo('about')">Sobre</a>
 	<a (click)="scrollTo('should-hire')">Contrate</a>
-	<a (click)="scrollTo('portfolio')">Portfólio</a>
 	<a (click)="scrollTo('contact')">Contato</a>
+</div>
+<div class="mobile-menu d-block d-sm-block d-md-none">
+	<i class="fas fa-home" (click)="scrollTo('home')"></i>
+	<i class="fas fa-briefcase" (click)="scrollTo('services')"></i>
+	<i class="fas fa-address-card" (click)="scrollTo('about')"></i>
+	<i class="fas fa-file-contract" (click)="scrollTo('should-hire')"></i>
+	<i class="fas fa-phone-square" (click)="scrollTo('contact')"></i>
 </div>
 <home-section></home-section>
 <div class="app-sections">

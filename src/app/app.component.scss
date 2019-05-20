@@ -30,6 +30,19 @@
 	}
 }
 
+.mobile-menu {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	font-size: 34pt;
+	z-index: 2;
+
+	i {
+		padding: 0 20px;
+		cursor: pointer;
+	}
+}
+
 .app-sections {
 	background-image: url("../assets/background.png");
 	background-repeat: no-repeat;

@@ -20,4 +20,9 @@ export class HomeComponent {
 			event.target.className = ''
 		}, 1000)
 	}
+
+	scrollTo (target) {
+		let element = document.getElementById(target)
+		element.scrollIntoView({behavior:"smooth"})
+	}
 }
