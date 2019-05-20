@@ -38,7 +38,7 @@ const appRoutes: Routes = [
     BrowserModule,
     AppRoutingModule,
     BsDropdownModule.forRoot(),
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes, {useHash: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
