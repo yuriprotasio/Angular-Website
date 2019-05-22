@@ -34,7 +34,7 @@
 	position: fixed;
 	width: 100%;
 	text-align: center;
-	font-size: 28pt;
+	font-size: 18pt;
 	z-index: 2;
 	background-color: rgba(255, 255, 255, .7);
 
@@ -49,4 +49,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+@media only screen and (max-width: 510px) {
+  	.app-sections {
+	    max-height: 750px;
+	}
 }
